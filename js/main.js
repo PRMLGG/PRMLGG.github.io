@@ -115,6 +115,10 @@ ScrollReveal().reveal('.counter-label', { delay: 700 , duration: 1500 , distance
 ScrollReveal().reveal('.number-counter', { delay: 500 , duration: 1500 , distance: '50px'});
 ScrollReveal().reveal('.gsap-reveal', { delay: 300 , duration: 1500 });
 ScrollReveal().reveal('.card-group', { delay: 600 , duration: 1500 , distance: '-100px' , scale: 0.85 });
+ScrollReveal().reveal('.prmlTeam', { delay: 600 , duration: 1500 , distance: '-100px' , scale: 0.85 });
+ScrollReveal().reveal('.oz404', { delay: 600 , duration: 1500 , distance: '-100px' , scale: 0.85 });
+ScrollReveal().reveal('.ozAnim1', { delay: 900 , duration: 2000 , distance: '100px' , scale: 0.85 });
+ScrollReveal().reveal('.ozAnim2', { delay: 1000 , duration: 2500 , distance: '150px' , scale: 0.85 });
 
 
 
