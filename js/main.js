@@ -123,12 +123,10 @@ ScrollReveal().reveal('.ozAnim2', { delay: 1000 , duration: 2500 , distance: '15
 
 
 var loader = function() {
-	setTimeout(function() {
-		TweenMax.to('.site-loader-wrap', 1, { marginTop: 50, autoAlpha: 0, ease: Power4.easeInOut });
-  }, 10);
-  $(".site-loader-wrap").delay(200).fadeOut("slow");
-	$("#unslate_co--overlayer").delay(200).fadeOut("slow");	
+	$(".loader").delay(200).fadeOut("slow");
+	$("#overlayer").delay(200).fadeOut("slow");	
 }
+
 
 var realm = 'frostwolf';
 var guild = 'valiant vengeance';
