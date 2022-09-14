@@ -39,6 +39,27 @@
        url('../fonts/rajdhani-v15-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/rajdhani-v15-latin-700.svg#Rajdhani') format('svg'); /* Legacy iOS */
 }
+#overlayer {
+  width:100%;
+  height:100%;  
+  position:absolute;
+  z-index:1;
+  background:#181818;
+}
+svg{
+  width: 100px;
+  height: 100px;
+  display:inline-block;
+  position: absolute;
+}
+.loader {
+
+}
+
+.loader-inner {
+
+}
+
 
 .jarallax {
   position: relative;
@@ -188,6 +209,9 @@ footer .nav-link {
 .container.ozAnim2 {
   z-index: 4;
 }
+.border-top {
+	border-color: #1c1c1e;
+}
 .oz404 {
   z-index: 3;
   font-weight: 700 !important;
@@ -217,26 +241,6 @@ footer .nav-link {
 }
 .scrolled-up{
   transform:translateY(0); transition: all 0.3s ease-in-out !important;
-}
-.button-default {
-  color: white;
-  background-color: teal;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 5px 10px;
-  margin: 10px;
-  display: inline-block;
-}
-.button-slanted {
-  -ms-transform: skewX(-20deg);
-  -webkit-transform: skewX(-20deg);
-  transform: skewX(-20deg);
-}
-.button-slanted-content {
-  -ms-transform: skewX(20deg);
-  -webkit-transform: skewX(20deg);
-  transform: skewX(20deg);  
-  display: inline-block;
 }
 .card {
   background-color: #1c1c1e !important;
