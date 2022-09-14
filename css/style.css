@@ -166,6 +166,44 @@ footer .nav-link {
 .oz-bg-dark {
 	background-color: #181818 !important;
 }
+.prmlTeam .card-title {
+  font-size: 26px;
+}
+.prmlTeam .card-subtitle {
+  font-size: 18px;
+}
+.kazoo404 {
+  background-image: url('../images/kazooHuh.gif');
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: cover;
+  height: 100vh;
+  z-index: 1;
+}
+.prmlFooterIMG.\34 04footer.bi.me-2 {
+  z-index: 4;
+  filter: grayscale(100%) contrast(180%);
+  padding-top: 150px;
+}
+.container.ozAnim2 {
+  z-index: 4;
+}
+.oz404 {
+  z-index: 3;
+  font-weight: 700 !important;
+  padding-top: 170px !important;
+}
+.oz404 h1 {
+  font-size: 17rem;
+  font-weight: 700 !important;
+}
+.oz404 p {
+  font-size: 5rem;
+  margin-top: -100px;
+}
+.prmlTeam .card-text {
+  font-size: 18px;
+}
 .jumbotron{
     background-size: cover; 
     height: 100%;
