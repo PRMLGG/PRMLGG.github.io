@@ -123,8 +123,8 @@ ScrollReveal().reveal('.ozAnim2', { delay: 1000 , duration: 2500 , distance: '15
 
 
 var loader = function() {
-	$(".loader").delay(200).fadeOut("slow");
-	$("#overlayer").delay(200).fadeOut("slow");	
+	$(".loader").delay(500).fadeOut("slow");
+	$("#overlayer").delay(500).fadeOut("slow");	
 }
 
 
