@@ -128,8 +128,8 @@ var loader = function() {
 }
 
 
-var realm = 'frostwolf';
-var guild = 'valiant vengeance';
+var realm = 'area 52';
+var guild = 'prml';
 
 const api_url =
   "https://raider.io/api/v1/guilds/profile?region=us&realm="+realm+"&name="+guild+"&fields=raid_rankings";
