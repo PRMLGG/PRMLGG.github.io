@@ -139,9 +139,9 @@ async function getRanking() {
 
   const { region, realm, raid_rankings } = data;
   
-  document.getElementById('realmRank').innerHTML = (raid_rankings["sepulcher-of-the-first-ones"]["mythic"]["realm"]);
-  document.getElementById('regionRank').innerHTML = (raid_rankings["sepulcher-of-the-first-ones"]["mythic"]["region"]);
-  document.getElementById('worldRank').innerHTML = (raid_rankings["sepulcher-of-the-first-ones"]["mythic"]["world"]);
+  document.getElementById('realmRank').innerHTML = (raid_rankings["vault-of-the-incarnates"]["heroic"]["realm"]);
+  document.getElementById('regionRank').innerHTML = (raid_rankings["vault-of-the-incarnates"]["heroic"]["region"]);
+  document.getElementById('worldRank').innerHTML = (raid_rankings["vault-of-the-incarnates"]["heroic"]["world"]);
  
 
 }
@@ -156,9 +156,9 @@ async function getProgression() {
 	
 	const { raid_progression } = data;
 	
-	document.getElementById('raidOne').innerHTML = (raid_progression["fated-sepulcher-of-the-first-ones"]["summary"]);
-	document.getElementById('raidTwo').innerHTML = (raid_progression["fated-sanctum-of-domination"]["summary"]);
-	document.getElementById('raidThree').innerHTML = (raid_progression["fated-castle-nathria"]["summary"]);
+	document.getElementById('raidOne').innerHTML = (raid_progression["vault-of-the-incarnates"]["summary"]);
+	document.getElementById('raidTwo').innerHTML = (raid_progression["vault-of-the-incarnates"]["summary"]);
+	document.getElementById('raidThree').innerHTML = (raid_progression["vault-of-the-incarnates"]["summary"]);
 	
 }
 
